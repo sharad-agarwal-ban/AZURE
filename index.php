@@ -28,7 +28,7 @@
 			// Display table headers
 			echo "<table><tr><th>ID</th><th>Name</th><th>Email</th></tr>";
 			// Loop through results and display each row in the table
-			while($row = $result->fetch_assoc()) {
+			while($row = mysql_fetch_array($result)) {
 				echo "<tr><td>" . $row["id"] . "</td><td>" . $row["name"] . "</td><td>" . $row["email"] . "</td></tr>";
 			}
 			echo "</table>";
