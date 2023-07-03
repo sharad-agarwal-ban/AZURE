@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'GL-WebAPPService'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9D564E1E7C7C4056A07967232EDD002E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5F65D89B4B1D4D258B5B17427CE29AA9 }}
           package: .
