@@ -7,7 +7,7 @@
 	<h1>MySQL Table Viewer For AppService</h1>
 	<?php
 		// Define database connection variables
-		$servername = "gl-mysql.mysql.database.azure.com";
+		$servername = "gl-sql-server.database.windows.net";
 		$username = "sharad";
 		$password = "Start#1new";
 		$dbname = "mydatabase";
